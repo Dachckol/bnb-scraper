@@ -1,7 +1,12 @@
 import pytest
 
 html_single = '<html><head></head><body>\
-<div itemprop="name"><span dir="ltr"><span><h1>Property Name</h1></span></span></div>\
+<a class="link-reset"><div><span><span>\
+    <span style="color:#03150d">Property Type</span>\
+</span></span></div></a>\
+<div><div><div><div>\
+    <div itemprop="name"><span dir="ltr"><span><h1>Property Name</h1></span></span></div>\
+</div></div></div></div>\
 <div>1 bed</div>\
 <div>2 bath</div>\
 <section>\
@@ -40,7 +45,12 @@ html_single = '<html><head></head><body>\
 '
 
 html_multi = '<html><head></head><body>\
-<div itemprop="name"><span dir="ltr"><span><h1>Property Name</h1></span></span></div>\
+<a class="link-reset"><div><span><span>\
+    <span style="color:#03150d">Property Type</span>\
+</span></span></div></a>\
+<div><div><div><div>\
+    <div itemprop="name"><span dir="ltr"><span><h1>Property Name</h1></span></span></div>\
+</div></div></div></div>\
 <div>2 beds</div>\
 <div>3 baths</div>\
 <section>\
